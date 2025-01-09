@@ -1,0 +1,55 @@
+/* Generell styling for nettsiden */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4500;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 40px;
+}
+
+/* Stil for artistlisten */
+.artist-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+.artist-list li {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Stil for festivalinformasjonen */
+#festival-info {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    border: 2px solid #ff4500;
+}
+
+#festival-info h3 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+#festival-info p {
+    font-size: 1.2em;
+}
